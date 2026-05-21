@@ -1,0 +1,62 @@
+name: Release Windows
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build & Release (Windows x86_64)
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Setup Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Rust build
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri -> target
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build frontend
+        run: npm run build:vite
+
+      - name: Build Tauri (Windows native, no bundle)
+        run: npx tauri build --no-bundle
+
+      - name: Package executable into zip
+        shell: pwsh
+        run: |
+          $exe = "src-tauri/target/release/11eOverlay.exe"
+          if (-not (Test-Path $exe)) {
+            Write-Error "Executable not found at $exe"
+            exit 1
+          }
+          Compress-Archive -Path $exe -DestinationPath "11eOverlay-windows-x86_64.zip" -Force
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: 11eOverlay-windows-x86_64.zip
+          generate_release_notes: true
+          fail_on_unmatched_files: true

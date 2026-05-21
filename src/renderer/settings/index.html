@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Paramètres — 11e Overlay</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="app">
+    <header id="titlebar">
+      <span id="title">Paramètres</span>
+      <button id="btn-close">✕</button>
+    </header>
+
+    <main id="form">
+      <label class="field">
+        <span class="label">Raccourci — Masquer/Afficher</span>
+        <input
+          id="input-hotkey"
+          type="text"
+          readonly
+          placeholder="Appuyez sur une touche…"
+          title="Cliquez puis appuyez sur la combinaison voulue"
+        />
+      </label>
+
+      <label class="field">
+        <span class="label">
+          Transparence
+          <span id="opacity-value">88%</span>
+        </span>
+        <input id="input-opacity" type="range" min="10" max="100" step="1" value="88" />
+      </label>
+
+      <label class="field">
+        <span class="label">
+          Taille du texte
+          <span id="fontsize-value">12px</span>
+        </span>
+        <input id="input-fontsize" type="range" min="10" max="18" step="1" value="12" />
+      </label>
+
+      <div id="actions">
+        <button id="btn-save">Enregistrer</button>
+        <button id="btn-cancel">Annuler</button>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="./main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "11e-overlay",
+  "version": "1.0.0",
+  "description": "Game overlay for 11e",
+  "scripts": {
+    "dev:vite": "vite --config vite.config.ts --host",
+    "build:vite": "NODE_ENV=production vite build --config vite.config.ts",
+    "dev": "tauri dev",
+    "package": "npx tauri build --runner cargo-xwin --target x86_64-pc-windows-msvc --no-bundle",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@types/node": "^25.9.1",
+    "@vitest/coverage-v8": "^4.1.6",
+    "javascript-obfuscator": "^5.4.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.13",
+    "vite-plugin-javascript-obfuscator": "^3.1.0",
+    "vitest": "^4.1.6"
+  }
+}

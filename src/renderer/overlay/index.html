@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>11e Overlay</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="app">
+    <header id="titlebar">
+      <span id="title">11e Overlay</span>
+      <div id="titlebar-actions">
+        <button id="btn-settings" title="Paramètres">⚙</button>
+        <button id="btn-hide">Masquer</button>
+        <button id="btn-close">Fermer</button>
+      </div>
+    </header>
+
+    <div id="settings-panel" class="hidden">
+      <label class="settings-field">
+        <span class="settings-label">Raccourci — Masquer/Afficher</span>
+        <input
+          id="settings-hotkey"
+          type="text"
+          readonly
+          placeholder="Appuyez sur une touche…"
+          title="Cliquez puis appuyez sur la combinaison voulue"
+        />
+      </label>
+      <label class="settings-field">
+        <span class="settings-label">
+          Transparence
+          <span id="settings-opacity-value">88%</span>
+        </span>
+        <input id="settings-opacity" type="range" min="10" max="100" step="1" value="88" />
+      </label>
+      <label class="settings-field">
+        <span class="settings-label">
+          Taille du texte
+          <span id="settings-fontsize-value">12px</span>
+        </span>
+        <input id="settings-fontsize" type="range" min="10" max="18" step="1" value="12" />
+      </label>
+      <div id="settings-actions">
+        <button id="settings-save">Enregistrer</button>
+        <button id="settings-cancel">Annuler</button>
+      </div>
+    </div>
+
+    <div id="mode-bar">
+      <button id="mode-lexique" class="mode-btn active">Lexique</button>
+      <button id="mode-artillerie" class="mode-btn">Artillerie</button>
+      <span id="arty-status" class="arty-status hidden" title="Statut SSE"></span>
+    </div>
+
+    <div id="search-bar">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Rechercher…"
+        autocomplete="off"
+        spellcheck="false"
+      />
+    </div>
+
+    <div id="section-chips"></div>
+
+    <div id="pinned-item" class="hidden"></div>
+
+    <div id="content-wrapper">
+      <div id="content-list"></div>
+      <div id="scroll-fade"></div>
+    </div>
+
+    <div id="arty-panel" class="hidden">
+      <div id="arty-auth" class="arty-card hidden">
+        <p class="arty-info">Non connecté à ArtyCon.</p>
+        <button id="arty-btn-discord" class="arty-btn primary">Se connecter avec Discord</button>
+        <div class="arty-sep"><span>ou</span></div>
+        <div class="arty-local-form">
+          <input id="arty-pseudo" type="text" placeholder="Pseudo" autocomplete="username" />
+          <input id="arty-password" type="password" placeholder="Mot de passe" autocomplete="current-password" />
+          <button id="arty-btn-local" class="arty-btn">Se connecter</button>
+        </div>
+        <p id="arty-auth-error" class="arty-error hidden"></p>
+      </div>
+
+      <div id="arty-main" class="hidden">
+        <div class="arty-header">
+          <span id="arty-user" class="arty-user"></span>
+          <button id="arty-btn-logout" class="arty-link">Déconnexion</button>
+        </div>
+
+        <div class="arty-selectors">
+          <label class="arty-field">
+            <span>Instance</span>
+            <select id="arty-instance"></select>
+          </label>
+          <label class="arty-field">
+            <span>Groupe</span>
+            <select id="arty-group" disabled></select>
+          </label>
+          <label class="arty-field">
+            <span>Batterie</span>
+            <select id="arty-battery" disabled></select>
+          </label>
+        </div>
+
+        <label class="arty-toggle">
+          <input id="arty-show-all" type="checkbox" />
+          <span>Afficher toutes les batteries du groupe</span>
+        </label>
+
+        <div id="arty-solution" class="arty-solution hidden">
+          <div class="arty-row arty-row-inline">
+            <span class="arty-label">Solution</span>
+            <span class="arty-value arty-inline-vals">
+              <span id="arty-distance" class="arty-dist">—</span>
+              <span class="arty-bullet">•</span>
+              <span id="arty-azimuth" class="arty-az">—</span>
+            </span>
+          </div>
+          <div class="arty-row">
+            <span class="arty-label">Type</span>
+            <span id="arty-type" class="arty-value">—</span>
+          </div>
+          <div id="arty-out-of-range" class="arty-warning hidden">Hors portée</div>
+        </div>
+
+        <div id="arty-all-batteries" class="arty-all-batteries hidden">
+          <table class="arty-batteries-table">
+            <thead>
+              <tr>
+                <th>Batterie</th>
+                <th>Solution (Dist • Az)</th>
+              </tr>
+            </thead>
+            <tbody id="arty-batteries-tbody"></tbody>
+          </table>
+        </div>
+
+        <p id="arty-error" class="arty-error hidden"></p>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./main.ts"></script>
+</body>
+</html>

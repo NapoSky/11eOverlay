@@ -1,0 +1,23 @@
+# Node
+node_modules/
+dist/
+
+# Coverage
+coverage/
+
+# Rust / Tauri
+src-tauri/target/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+
+# IDE
+.vscode/

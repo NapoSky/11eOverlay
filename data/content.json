@@ -1,0 +1,736 @@
+[
+  {
+    "section": "Armes",
+    "items": [
+      {
+        "key": "AT",
+        "value": "Antichar"
+      },
+      {
+        "key": "ATR",
+        "value": "Fusil Antichar"
+      },
+      {
+        "key": "ATSR",
+        "value": "Fusil de Précision Antichar"
+      },
+      {
+        "key": "BEAT",
+        "value": "Antichar Emplacé Bonesaw (Colonial)"
+      },
+      {
+        "key": "EAT",
+        "value": "Antichar Emplacé (Warden)"
+      },
+      {
+        "key": "EMG",
+        "value": "Mitrailleuse Emplacée"
+      },
+      {
+        "key": "FA",
+        "value": "Artillerie de Campagne"
+      },
+      {
+        "key": "FAT",
+        "value": "Canon Antichar de Campagne"
+      },
+      {
+        "key": "FMG",
+        "value": "Mitrailleuse de Campagne"
+      },
+      {
+        "key": "FM",
+        "value": "Mortier de Campagne"
+      },
+      {
+        "key": "Flask",
+        "value": "Grenade Antichar Warden (BF5 White Ash)"
+      },
+      {
+        "key": "Gas / Green Ash",
+        "value": "Grenade à Gaz"
+      },
+      {
+        "key": "HE",
+        "value": "Explosif Lourd"
+      },
+      {
+        "key": "HMG",
+        "value": "Mitrailleuse Lourde"
+      },
+      {
+        "key": "HV",
+        "value": "Haute Vélocité"
+      },
+      {
+        "key": "HVFAT / HV68",
+        "value": "Canon Antichar Haute Vélocité (Warden)"
+      },
+      {
+        "key": "HVFC / HV40",
+        "value": "Canon de Campagne Haute Vélocité (Colonial)"
+      },
+      {
+        "key": "ISG",
+        "value": "Canon de Soutien d'Infanterie"
+      },
+      {
+        "key": "LV",
+        "value": "Basse Vélocité"
+      },
+      {
+        "key": "MG",
+        "value": "Mitrailleuse"
+      },
+      {
+        "key": "Nade",
+        "value": "Grenade"
+      },
+      {
+        "key": "Nebelwerfer",
+        "value": "Lanceur de Roquettes de Campagne (Warden)"
+      },
+      {
+        "key": "SPG",
+        "value": "Canon Automoteur 150mm"
+      },
+      {
+        "key": "Sticky",
+        "value": "Bombe Collante Antichar"
+      },
+      {
+        "key": "Torp",
+        "value": "Torpille"
+      }
+    ]
+  },
+  {
+    "section": "Véhicules",
+    "items": [
+      {
+        "key": "AC",
+        "value": "Voiture Blindée"
+      },
+      {
+        "key": "ACV",
+        "value": "Véhicule de Construction Avancé"
+      },
+      {
+        "key": "ALUV / AUV / Duck Car",
+        "value": "Véhicule Utilitaire Léger Amphibie"
+      },
+      {
+        "key": "APC",
+        "value": "Véhicule Blindé de Transport de Troupes"
+      },
+      {
+        "key": "ATAC",
+        "value": "Voiture Blindée Antichar (Colonial)"
+      },
+      {
+        "key": "ATHT",
+        "value": "Semi-Chenillé Antichar (Warden)"
+      },
+      {
+        "key": "BAC",
+        "value": "Bonesaw Armored Car (Warden)"
+      },
+      {
+        "key": "BF",
+        "value": "BMS Bluefin — navire-stockpile"
+      },
+      {
+        "key": "BH",
+        "value": "Bowhead — Navire de Ressources"
+      },
+      {
+        "key": "BL / Bonelaw",
+        "value": "Gallagher Thornfall Mk. VI (Char de Croisière Warden)"
+      },
+      {
+        "key": "BS",
+        "value": "Cuirassé"
+      },
+      {
+        "key": "BT",
+        "value": "Char de Bataille"
+      },
+      {
+        "key": "BTD",
+        "value": "Destructeur de Char de Bataille (Colonial)"
+      },
+      {
+        "key": "CV",
+        "value": "Véhicule de Construction"
+      },
+      {
+        "key": "DB",
+        "value": "Bombardier en Piqué (Colonial)"
+      },
+      {
+        "key": "DD",
+        "value": "Destroyer Naval (Colonial)"
+      },
+      {
+        "key": "Doru",
+        "value": "APC Colonial avec MG"
+      },
+      {
+        "key": "Falchion / Falc",
+        "value": "Char d'Assaut Colonial 85K-b"
+      },
+      {
+        "key": "FF / Frig",
+        "value": "Frégate Légère (Warden)"
+      },
+      {
+        "key": "Flat / Flatbed",
+        "value": "Camion Plateau"
+      },
+      {
+        "key": "GAC",
+        "value": "Voiture Blindée Grenadière Warden"
+      },
+      {
+        "key": "GB",
+        "value": "Canonnière"
+      },
+      {
+        "key": "GS",
+        "value": "Navire Canon"
+      },
+      {
+        "key": "HAC",
+        "value": "Voiture Blindée Lourde (Warden)"
+      },
+      {
+        "key": "Harvie",
+        "value": "Moissonneuse"
+      },
+      {
+        "key": "HB",
+        "value": "Bombardier Lourd"
+      },
+      {
+        "key": "HT",
+        "value": "Semi-Chenillé"
+      },
+      {
+        "key": "HTD / WTD",
+        "value": "Destructeur de Chars Lourds (Warden)"
+      },
+      {
+        "key": "HWM",
+        "value": "Gallagher Highwayman Mk. III (Warden)"
+      },
+      {
+        "key": "IST",
+        "value": "Char de Soutien d'Infanterie (Colonial)"
+      },
+      {
+        "key": "LH",
+        "value": "Longhook — Navire de Débarquement"
+      },
+      {
+        "key": "LS",
+        "value": "Grand Navire"
+      },
+      {
+        "key": "LT",
+        "value": "Char Léger"
+      },
+      {
+        "key": "LTD",
+        "value": "Destructeur de Char Léger (Colonial)"
+      },
+      {
+        "key": "LUV",
+        "value": "Véhicule Utilitaire Léger"
+      },
+      {
+        "key": "MHT / MTHT",
+        "value": "Semi-Chenillé Mortier (Colonial)"
+      },
+      {
+        "key": "MLT / MT",
+        "value": "Char Léger Mortier (Warden)"
+      },
+      {
+        "key": "MPT",
+        "value": "Char de Production de Masse (Colonial)"
+      },
+      {
+        "key": "Nem",
+        "value": "Nemesis — Char d'Assaut Colonial"
+      },
+      {
+        "key": "OL",
+        "value": "Gallagher Outlaw Mk. II (Warden)"
+      },
+      {
+        "key": "Quadiche / Quad",
+        "value": "Char d'Assaut Colonial lance-RPG x4"
+      },
+      {
+        "key": "RSC / TSC",
+        "value": "Canon Tempête sur Rail"
+      },
+      {
+        "key": "SHT",
+        "value": "Super Heavy Tank"
+      },
+      {
+        "key": "ST",
+        "value": "Char de Reconnaissance (Warden)"
+      },
+      {
+        "key": "STD",
+        "value": "Silverhand Tank Destroyer (Warden)"
+      },
+      {
+        "key": "SvH",
+        "value": "Silverhand (Warden)"
+      },
+      {
+        "key": "TAC",
+        "value": "Voiture Blindée à Chenilles (Warden)"
+      },
+      {
+        "key": "TB",
+        "value": "Bombardier Torpilleur (Warden)"
+      },
+      {
+        "key": "Vic",
+        "value": "Véhicule"
+      }
+    ]
+  },
+  {
+    "section": "Structures",
+    "items": [
+      {
+        "key": "ATG",
+        "value": "Garnison Antichar"
+      },
+      {
+        "key": "ATP",
+        "value": "Blockhaus Antichar"
+      },
+      {
+        "key": "BB / BoB / Bober",
+        "value": "Base Bunker / Base Frontalière"
+      },
+      {
+        "key": "Border Base",
+        "value": "Structure capturable pour attaquer les hexagones voisins"
+      },
+      {
+        "key": "BP / Blueprint",
+        "value": "Plan de Construction"
+      },
+      {
+        "key": "CG",
+        "value": "Canon Côtier"
+      },
+      {
+        "key": "FOB",
+        "value": "Base Opérationnelle Avancée"
+      },
+      {
+        "key": "Garri",
+        "value": "Garnison (AT / MG / Fusil / Artillerie)"
+      },
+      {
+        "key": "Ghouse",
+        "value": "Maison Fortifiée"
+      },
+      {
+        "key": "Howi",
+        "value": "Garnison d'Artillerie"
+      },
+      {
+        "key": "IC",
+        "value": "Centre de Renseignement"
+      },
+      {
+        "key": "IG",
+        "value": "Garnison d'Infanterie"
+      },
+      {
+        "key": "ISGP",
+        "value": "Blockhaus de Canon de Soutien d'Infanterie"
+      },
+      {
+        "key": "LTS",
+        "value": "Station de Transfert de Liquides"
+      },
+      {
+        "key": "MGG",
+        "value": "Garnison Mitrailleuse"
+      },
+      {
+        "key": "MGP",
+        "value": "Blockhaus Mitrailleuse"
+      },
+      {
+        "key": "MH",
+        "value": "Maison Mortier"
+      },
+      {
+        "key": "MTS",
+        "value": "Station de Transfert de Matériaux"
+      },
+      {
+        "key": "Nuke",
+        "value": "Fusée Balistique"
+      },
+      {
+        "key": "OB / ObsB",
+        "value": "Bunker d'Observation"
+      },
+      {
+        "key": "OJT",
+        "value": "Relic Base de Old Jack Tar (Endless Shore)"
+      },
+      {
+        "key": "OT / ObsT / OBS",
+        "value": "Tour d'Observation"
+      },
+      {
+        "key": "Octagon",
+        "value": "Emplacement de Tranchée"
+      },
+      {
+        "key": "RB",
+        "value": "Base Relique"
+      },
+      {
+        "key": "RG",
+        "value": "Garnison de Fusiliers"
+      },
+      {
+        "key": "RP",
+        "value": "Blockhaus de Fusiliers"
+      },
+      {
+        "key": "RTS",
+        "value": "Station de Transfert de Ressources"
+      },
+      {
+        "key": "SC",
+        "value": "Canon Tempête"
+      },
+      {
+        "key": "SD / Depot",
+        "value": "Dépôt de Stockage"
+      },
+      {
+        "key": "SH",
+        "value": "Maison Sécurisée"
+      },
+      {
+        "key": "TH",
+        "value": "Mairie (Town Hall)"
+      },
+      {
+        "key": "UF / UGF / UG",
+        "value": "Forteresse Souterraine"
+      },
+      {
+        "key": "WT",
+        "value": "Tour de Guet"
+      }
+    ]
+  },
+  {
+    "section": "Facilities",
+    "items": [
+      {
+        "key": "AM / Amat / Assmat",
+        "value": "Matériaux d'Assemblage"
+      },
+      {
+        "key": "Cmat",
+        "value": "Matériaux de Construction"
+      },
+      {
+        "key": "CE / Excavator",
+        "value": "Équipement de Construction (shippable autonome)"
+      },
+      {
+        "key": "Fac",
+        "value": "Usine"
+      },
+      {
+        "key": "Mixer",
+        "value": "Bétonnière"
+      },
+      {
+        "key": "MPF",
+        "value": "Usine de Production de Masse"
+      },
+      {
+        "key": "Pcmat / Pcons",
+        "value": "Matériaux de Construction Traités"
+      },
+      {
+        "key": "Remat / Relmat",
+        "value": "Matériaux de Relique"
+      },
+      {
+        "key": "Scmat / Steel",
+        "value": "Matériaux de Construction en Acier"
+      },
+      {
+        "key": "Tmat / Techmat",
+        "value": "Matériaux Technologiques"
+      },
+      {
+        "key": "Vegan Pcons",
+        "value": "Matériaux de Construction Traités (sans Composants)"
+      }
+    ]
+  },
+  {
+    "section": "Logistique",
+    "items": [
+      {
+        "key": "Backline",
+        "value": "Arrière (zone logistique)"
+      },
+      {
+        "key": "Bmat",
+        "value": "Matériaux Basiques"
+      },
+      {
+        "key": "Border Swap",
+        "value": "Échange de véhicule/cargaison à la frontière pour doubler la file"
+      },
+      {
+        "key": "Conc",
+        "value": "Matériaux de Béton"
+      },
+      {
+        "key": "Eoil / E.Oil",
+        "value": "Huile Enrichie"
+      },
+      {
+        "key": "Emat",
+        "value": "Poudre Explosive"
+      },
+      {
+        "key": "Fuel",
+        "value": "Carburant"
+      },
+      {
+        "key": "Hemat / Hmat",
+        "value": "Poudre Explosive Lourde"
+      },
+      {
+        "key": "Hoil / H.Oil",
+        "value": "Huile Lourde"
+      },
+      {
+        "key": "LC",
+        "value": "Conteneur de Liquide (Flatbed)"
+      },
+      {
+        "key": "Logi",
+        "value": "Logistique"
+      },
+      {
+        "key": "MP",
+        "value": "Palette de Matériaux (Flatbed)"
+      },
+      {
+        "key": "MS / Msupp",
+        "value": "Fournitures de Maintenance"
+      },
+      {
+        "key": "Rares",
+        "value": "Métal Rare"
+      },
+      {
+        "key": "RC",
+        "value": "Conteneur de Ressource (Flatbed)"
+      },
+      {
+        "key": "Rmat",
+        "value": "Matériaux Raffinés"
+      },
+      {
+        "key": "SC",
+        "value": "Conteneur d'Expédition (Flatbed)"
+      },
+      {
+        "key": "Scrap / Scroop",
+        "value": "Ferraille"
+      },
+      {
+        "key": "SHC",
+        "value": "Caisse Expédiable (Flatbed)"
+      },
+      {
+        "key": "Shirts / SS",
+        "value": "Fournitures de Soldat"
+      }
+    ]
+  },
+  {
+    "section": "Termes Généraux",
+    "items": [
+      {
+        "key": "15 mins",
+        "value": "Durée indéfinie"
+      },
+      {
+        "key": "AA",
+        "value": "Anti-Aérien"
+      },
+      {
+        "key": "AI / IA",
+        "value": "Intelligence Artificielle (tir automatique)"
+      },
+      {
+        "key": "Alt",
+        "value": "Compte Alternatif"
+      },
+      {
+        "key": "Arty",
+        "value": "Artillerie"
+      },
+      {
+        "key": "Binos / Binocs",
+        "value": "Jumelles"
+      },
+      {
+        "key": "Blues / Blueberries",
+        "value": "Wardens"
+      },
+      {
+        "key": "Builder",
+        "value": "Constructeur (rôle)"
+      },
+      {
+        "key": "Collies / Goblins",
+        "value": "Coloniaux"
+      },
+      {
+        "key": "Conc (verbe)",
+        "value": "Bétonner"
+      },
+      {
+        "key": "Cook (grenade)",
+        "value": "Amorcer une grenade avant de la lancer"
+      },
+      {
+        "key": "DC",
+        "value": "Contrôle des Dégâts"
+      },
+      {
+        "key": "Decay",
+        "value": "Dégradation des structures"
+      },
+      {
+        "key": "Dev",
+        "value": "Développeur"
+      },
+      {
+        "key": "ETA",
+        "value": "Heure d'Arrivée Estimée"
+      },
+      {
+        "key": "Fight Club",
+        "value": "Accord d'hostilité mutuelle entre joueurs"
+      },
+      {
+        "key": "FOD",
+        "value": "Discord Officiel de Foxhole"
+      },
+      {
+        "key": "Front",
+        "value": "Front (zone de combats)"
+      },
+      {
+        "key": "Hex",
+        "value": "Région Hexagonale"
+      },
+      {
+        "key": "LK",
+        "value": "Kit d'Écoute"
+      },
+      {
+        "key": "Logi",
+        "value": "Logistique (rôle)"
+      },
+      {
+        "key": "Node",
+        "value": "Nœud de Ressources"
+      },
+      {
+        "key": "Noot",
+        "value": "Neutre (sans faction)"
+      },
+      {
+        "key": "OJT",
+        "value": "Relic Base de Old Jack Tar"
+      },
+      {
+        "key": "OS",
+        "value": "One Shot (détruit en un coup)"
+      },
+      {
+        "key": "OCDT Syndrome",
+        "value": "Abus de non connaissance d'un débutant"
+      },
+      {
+        "key": "Para",
+        "value": "Parachutiste"
+      },
+      {
+        "key": "Partisan",
+        "value": "Saboteur en territoire ennemi"
+      },
+      {
+        "key": "Proto",
+        "value": "Véhicule Prototype"
+      },
+      {
+        "key": "Push",
+        "value": "Offensive coordonnée"
+      },
+      {
+        "key": "QRF",
+        "value": "Force de Réaction Rapide"
+      },
+      {
+        "key": "RDZ",
+        "value": "Zone de Dégradation Rapide"
+      },
+      {
+        "key": "Reset / Tap",
+        "value": "Détruire pour reconstruire"
+      },
+      {
+        "key": "Scrapper",
+        "value": "Collecteur de Ferraille"
+      },
+      {
+        "key": "SR / AR",
+        "value": "Fusil d'Assaut"
+      },
+      {
+        "key": "T1 / T2 / T3",
+        "value": "Niveau de technologie 1 / 2 / 3"
+      },
+      {
+        "key": "VP",
+        "value": "Point de Victoire"
+      },
+      {
+        "key": "WC",
+        "value": "Conquête du Monde"
+      }
+    ]
+  }
+]
