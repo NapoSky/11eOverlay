@@ -4,7 +4,7 @@
   "description": "Game overlay for 11e",
   "scripts": {
     "dev:vite": "vite --config vite.config.ts --host",
-    "build:vite": "NODE_ENV=production vite build --config vite.config.ts",
+    "build:vite": "vite build --config vite.config.ts",
     "dev": "tauri dev",
     "package": "npx tauri build --runner cargo-xwin --target x86_64-pc-windows-msvc --no-bundle",
     "test": "vitest run",

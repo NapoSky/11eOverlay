@@ -39,7 +39,7 @@ jobs:
         run: npm test
 
       - name: Build frontend
-        run: npm run build:vite
+        run: npx vite build --config vite.config.ts
 
       - name: Build Tauri (Windows native, no bundle)
         run: npx tauri build --no-bundle
