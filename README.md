@@ -20,6 +20,7 @@ pour les instances dont l'utilisateur connecté est membre.
 4. [Commandes](#commandes)
 5. [Structure du projet](#structure-du-projet)
 6. [Architecture](#architecture)
+7. [Contribuer](#contribuer)
 
 ---
 
@@ -28,7 +29,7 @@ pour les instances dont l'utilisateur connecté est membre.
 | Outil | Version min | Notes |
 |---|---|---|
 | Rust (stable) | 1.80+ | via `rustup` |
-| Node.js | 20+ | LTS recommandé |
+| Node.js | 24+ | LTS recommandé |
 | npm | 10+ | inclus avec Node |
 | clang + llvm | 14+ | nécessaire pour cargo-xwin |
 | cargo-xwin | 0.20+ | `cargo install cargo-xwin` |
@@ -183,3 +184,9 @@ Les compilations suivantes réutilisent le cache.
 - Transport exclusivement via `rustls` (pas d'OpenSSL système)
 - CSP stricte sur les WebView
 - User-Agent bindé au token (hash SHA-256 côté serveur)
+
+---
+
+## Contribuer
+
+Les contributions sont les bienvenues. Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour les détails.
