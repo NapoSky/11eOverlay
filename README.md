@@ -10,6 +10,11 @@ pour les instances dont l'utilisateur connecté est membre.
 **Cible de déploiement :** Windows x86_64 (cross-compilé depuis Linux)  
 **Authentification :** OAuth2 loopback Discord ou login local + tokens JWT Bearer
 
+> [!IMPORTANT]
+> Lors du premier lancement, Windows peut afficher une alerte **Microsoft Defender SmartScreen**.
+> Ce comportement est normal tant que l'application n'est pas signée avec un certificat reconnu par Microsoft.
+> En cas de doute, le code source est entièrement public et auditable: [github.com/NapoSky/11eOverlay](https://github.com/NapoSky/11eOverlay).
+
 ---
 
 ## Sommaire

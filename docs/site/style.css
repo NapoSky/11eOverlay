@@ -170,6 +170,35 @@ section h2 {
   color: var(--accent-hover);
 }
 
+.notice {
+  border-color: rgba(245, 158, 11, 0.45);
+  background:
+    linear-gradient(0deg, rgba(13, 17, 23, 0.75), rgba(13, 17, 23, 0.75)),
+    linear-gradient(120deg, rgba(217, 119, 6, 0.18), rgba(88, 166, 255, 0.08));
+}
+
+.notice h2 {
+  color: #fcd34d;
+}
+
+.notice p {
+  color: var(--text-muted);
+  margin-bottom: 0.95rem;
+}
+
+.notice p:last-child {
+  margin-bottom: 0;
+}
+
+.notice strong {
+  color: #f8fafc;
+}
+
+.notice a {
+  color: var(--link);
+  font-weight: 600;
+}
+
 footer {
   text-align: center;
   padding: 2rem 0 1rem;
