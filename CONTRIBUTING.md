@@ -58,6 +58,6 @@ Consultez la structure du projet dans le [README](README.md) avant de commencer.
 Lancez les tests avant de soumettre une PR :
 
 ```bash
-npm test
-npm run typecheck
+pnpm test
+pnpm run typecheck
 ```

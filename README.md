@@ -35,7 +35,7 @@ pour les instances dont l'utilisateur connecté est membre.
 |---|---|---|
 | Rust (stable) | 1.80+ | via `rustup` |
 | Node.js | 24+ | LTS recommandé |
-| npm | 10+ | inclus avec Node |
+| pnpm | 11+ | package manager |
 | clang + llvm | 14+ | nécessaire pour cargo-xwin |
 | cargo-xwin | 0.20+ | `cargo install cargo-xwin` |
 
@@ -92,10 +92,10 @@ nvm install --lts
 nvm use --lts
 ```
 
-### 4. Dépendances npm
+### 4. Dépendances pnpm
 
 ```bash
-npm install
+pnpm install
 ```
 
 ---
@@ -114,7 +114,7 @@ rustup target add x86_64-pc-windows-msvc
 cargo install cargo-xwin
 
 # Compiler (génère un .exe dans src-tauri/target/x86_64-pc-windows-msvc/release/)
-npm run package
+pnpm run package
 ```
 
 La première exécution télécharge le Windows SDK (~1 Go) dans `~/.xwin-cache`.
@@ -126,13 +126,13 @@ Les compilations suivantes réutilisent le cache.
 
 | Commande | Description |
 |---|---|
-| `npm run dev` | Lance Tauri en mode dev (hot-reload, fenêtre native Linux) |
-| `npm run dev:vite` | Lance uniquement le serveur Vite (port 1420) |
-| `npm run build:vite` | Build le frontend (obfusqué en production) |
-| `npm run package` | Cross-compile pour Windows → `.exe` sans installeur |
-| `npm run test` | Lance la suite de tests Vitest |
-| `npm run test:coverage` | Tests avec rapport de couverture |
-| `npm run typecheck` | Vérification TypeScript sans émission |
+| `pnpm run dev` | Lance Tauri en mode dev (hot-reload, fenêtre native Linux) |
+| `pnpm run dev:vite` | Lance uniquement le serveur Vite (port 1420) |
+| `pnpm run build:vite` | Build le frontend (obfusqué en production) |
+| `pnpm run package` | Cross-compile pour Windows → `.exe` sans installeur |
+| `pnpm run test` | Lance la suite de tests Vitest |
+| `pnpm run test:coverage` | Tests avec rapport de couverture |
+| `pnpm run typecheck` | Vérification TypeScript sans émission |
 
 ---
 
