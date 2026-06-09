@@ -17,9 +17,9 @@ main
  └── [tag v1.2.0] ──────────────────► workflow release.yml
                                              │
                                              ├── checkout@v4 (tag v1.2.0)
-                                             ├── npm ci
-                                             ├── npm test
-                                             ├── npm run build:vite
+                                             ├── pnpm ci
+                                             ├── pnpm test
+                                             ├── pnpm run build:vite
                                              ├── tauri build --no-bundle
                                              ├── Compress-Archive → 11eOverlay-windows-x86_64.zip
                                              └── softprops/action-gh-release → Release "v1.2.0"
@@ -95,7 +95,7 @@ main
        └── [tag v1.3.0-rc.1] ──────────► workflow release.yml
                                                 │
                                                 ├── checkout@v4 (tag v1.3.0-rc.1)
-                                                ├── npm ci / test / build...
+                                                ├── pnpm ci / test / build...
                                                 └── Release "v1.3.0-rc.1" (pre-release)
 ```
 

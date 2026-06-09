@@ -82,13 +82,13 @@ cargo install cargo-xwin
 ## Premier build (téléchargement du Windows SDK)
 
 ```bash
-npm run package
+pnpm run package
 ```
 
 Ce script exécute :
 
 ```
-npx tauri build --runner cargo-xwin --target x86_64-pc-windows-msvc --no-bundle
+pnpm tauri build --runner cargo-xwin --target x86_64-pc-windows-msvc --no-bundle
 ```
 
 ### Ce qui se passe au premier lancement
@@ -204,6 +204,6 @@ cargo install cargo-xwin
 sudo apt install clang llvm lld  # si pas déjà présents
 
 # Build Windows depuis Linux
-npm run package
+pnpm run package
 # → src-tauri/target/x86_64-pc-windows-msvc/release/11eOverlay.exe
 ```
